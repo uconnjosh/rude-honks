@@ -41,16 +41,21 @@ $content-width: 80vw;
   background-color: #EAECF0;
 }
 
-.post {
-  width: 80%;
+.post__header {
   padding: 40px;
-}
-
-.location {
   > h2 {
     font-family: 'Permanent Marker', cursive;
   }
   > p {
     margin-left: 20px;
+  }
+}
+
+.video {
+  text-align: center;
+  height: 75vh;
+  margin: 0 auto;
+  > video {
+    height: 100%;
   }
 }
