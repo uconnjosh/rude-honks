@@ -14,6 +14,7 @@ body {
   background: #fafafa;
   font-family: 'Nanum Gothic Coding', monospace;
   color: #333;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -35,6 +36,7 @@ $content-width: 80vw;
   }
 }
 .main {
+  position: relative;
   width: $content-width;
   margin: 0 auto;
   padding-bottom: 100px;
@@ -54,8 +56,18 @@ $content-width: 80vw;
 .video {
   text-align: center;
   height: 75vh;
-  margin: 0 auto;
   > video {
     height: 100%;
   }
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
 }
