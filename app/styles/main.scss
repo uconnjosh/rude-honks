@@ -24,6 +24,12 @@ h1, h2, h3, h4 {
 
 $content-width: 80vw;
 
+.side_header {
+  position: absolute;
+  left: 5px;
+  top: 60px;
+}
+
 .header {
   width: $content-width;
   margin: 0 auto;
@@ -72,7 +78,7 @@ $content-width: 80vw;
   text-align: center;
 }
 
-.icon--contact {
+.icon {
   display: inline;
   width: 24px;
   vertical-align: bottom;
